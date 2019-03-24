@@ -2,7 +2,7 @@
 
 **Ambitious and crazy**
 
-Let's leverage Kotlin coroutines and multiplatform to build UI which can be rendered on server and browser, mobile or even terminal.
+Let's leverage Kotlin coroutines, DSL and multiplatform to build UI which can be rendered on server and browser, mobile or even terminal.
 
 1. User interface as function of state: `UI = f(STATE)`;
 2. Async and pull-based (Thanks Kotlin Coroutines);
