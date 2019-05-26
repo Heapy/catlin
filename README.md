@@ -1,4 +1,4 @@
-# Rekoncile
+# Catlin
 
 **Ambitious and crazy**
 
@@ -13,4 +13,4 @@ Let's create whole new world!
 
 ## Licence
 
-**Heapy/Rekoncile** is **Open Source Software** released under the **[Apache 2.0](https://github.com/Heapy/rekoncile/blob/master/LICENSE)** license.
+**Heapy/Catlin** is **Open Source Software** released under the **[Apache 2.0](https://github.com/Heapy/catlin/blob/master/LICENSE)** license.
