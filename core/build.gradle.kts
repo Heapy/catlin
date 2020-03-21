@@ -2,9 +2,6 @@ plugins {
     kotlin("multiplatform").version("1.3.70")
 }
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
-
 repositories {
     jcenter()
 }
