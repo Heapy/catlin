@@ -4,13 +4,13 @@ import kotlin.dom.appendText
 
 actual fun Node.render(root: String): String? {
     val element = document.createElement(localName = type).also {
-        it.appendText(content)
+        it.appendText(content + "From JS")
         children.forEach { child ->
             it.appendChild(renderChild(child))
         }
     }
 
-    document.querySelector("#$root")?.appendChild(element)
+    document.querySelector("#$root")?.replaceWith(element)
 
     return null
 }

@@ -10,7 +10,8 @@ minimum-scale=1.0">
       <title>Document</title>
     </head>
     <body>
-      <$type id="$root">$content${renderAll(this)}</$type>
+      <$type id="$root">$content From JVM${renderAll(this)}</$type>
+      <script src="js-ui-sample.js"></script>
     </body>
     </html>
     """.trimIndent()

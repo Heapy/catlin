@@ -10,7 +10,7 @@ import render
 import java.nio.file.Paths
 
 fun main() {
-    val resources = Paths.get("js-ui-sample/")
+    val resources = Paths.get("js-ui-sample/build/distributions")
     println(resources.toAbsolutePath())
     val rootHandler = ResourceHandler(PathResourceManager(resources), HttpHandler {
         it.responseHeaders.add(Headers.CONTENT_TYPE, "text/html")
