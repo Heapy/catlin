@@ -1,8 +1,11 @@
+// External event: interactions, network responses, timers
+interface HostTree
+
 data class Node(
     val type: String,
     val children: List<Node>,
     val content: String
-)
+) : HostTree
 
 data class NodeBuilder(
     val children: MutableList<Node> = mutableListOf(),
