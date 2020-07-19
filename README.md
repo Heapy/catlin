@@ -11,6 +11,8 @@ Let's leverage Kotlin coroutines, DSL and multiplatform to build UI which can be
 
 Let's create whole new world!
 
+TODO: Look at kvision, noria-kt, noria-clj
+
 ## Licence
 
 **Heapy/Catlin** is **Open Source Software** released under the **[Apache 2.0](https://github.com/Heapy/catlin/blob/master/LICENSE)** license.
