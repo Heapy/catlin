@@ -11,7 +11,7 @@ Let's leverage Kotlin coroutines, DSL and multiplatform to build UI which can be
 
 Let's create whole new world!
 
-TODO: Look at kvision, noria-kt, noria-clj
+TODO: Look at kvision, noria-kt, noria-clj, skia, react, preact
 
 ## Licence
 
